@@ -1,0 +1,81 @@
+.page-content a,
+a,
+body,
+h1 {
+    color: #FFF;
+}
+
+a {
+    font-weight: 700;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.content .page-header {
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+    border: 0;
+    padding: 0;
+}
+
+.content .page-header .page-title {
+    margin-bottom: .75em;
+}
+
+h1 {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    text-transform: none;
+    letter-spacing: .0625em;
+}
+
+.list ul {
+    margin: 3.2rem 0 3.2rem 0;
+    list-style: none;
+    padding: 0;
+}
+
+.list ul li {
+    font-size: 1.6rem;
+}
+
+.list ul li span {
+    display: inline-block;
+    text-align: left;
+    width: 20rem;
+    margin-left: 0;
+    margin-right: 3rem;
+}
+
+.page-content a {
+    font-weight: 400;
+}
+
+.page-content a:hover {
+    color: #ffcd00;
+}
+
+content .page-header:after {
+    content: "";
+    display: block;
+    width: 6.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-bottom: .3em solid #ffcd00;
+}
+
+.container .float-right {
+    float: right;
+    font-size: 2rem;
+}
+
+.float-right a {
+    color: #ffcd00;
+}

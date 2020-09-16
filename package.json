@@ -1,0 +1,18 @@
+{
+    "name": "duomi",
+    "version": "1.0.0",
+    "description": "北京多米官网",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "chenyiyuan",
+    "license": "ISC",
+    "devDependencies": {
+        "stylus": "^0.54.8"
+    },
+    "dependencies": {
+        "stylus-loader": "^3.0.2"
+    }
+}

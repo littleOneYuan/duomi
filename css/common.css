@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+}
+.block-img>img {
+  display: block;
+}
+.block-img>img:hover {
+  transform: scale(1.05, 1.05);
+}
