@@ -1,12 +1,10 @@
-.page-content a,
-a,
 body,
 h1 {
     color: #FFF;
 }
 
-a {
-    font-weight: 700;
+.wrapper nav {
+    margin-bottom: 0;
 }
 
 .container {
@@ -16,66 +14,42 @@ a {
     box-sizing: border-box;
     padding-left: 2rem;
     padding-right: 2rem;
+    margin-bottom: 3.2rem;
 }
 
-.content .page-header {
+.page-header {
     margin-top: 3.2rem;
     margin-bottom: 3.2rem;
     border: 0;
     padding: 0;
 }
 
-.content .page-header .page-title {
+.page-header .page-title {
     margin-bottom: .75em;
 }
 
-h1 {
-    font-size: 3.2rem;
-    line-height: 3.2rem;
+#h1 {
+    font-size: 3.0rem;
+    line-height: 5.2rem;
     text-transform: none;
     letter-spacing: .0625em;
-}
-
-.list ul {
-    margin: 3.2rem 0 3.2rem 0;
-    list-style: none;
-    padding: 0;
-}
-
-.list ul li {
-    font-size: 1.6rem;
-}
-
-.list ul li span {
-    display: inline-block;
-    text-align: left;
-    width: 20rem;
-    margin-left: 0;
-    margin-right: 3rem;
-}
-
-.page-content a {
-    font-weight: 400;
-}
-
-.page-content a:hover {
-    color: #ffcd00;
-}
-
-content .page-header:after {
-    content: "";
     display: block;
-    width: 6.5em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    border-bottom: .3em solid #ffcd00;
+    border-bottom: .12em solid #ffcd00;
+    width: fit-content;
 }
 
-.container .float-right {
-    float: right;
-    font-size: 2rem;
-}
-
-.float-right a {
+#description {
+    font-size: 1.5em;
+    letter-spacing: .08em;
+    line-height: 2em;
+    font-weight: 700;
     color: #ffcd00;
+    margin-bottom: 2rem;
+}
+
+#content {
+    font-size: 1.2em;
+    line-height: 2.4rem;
+    letter-spacing: .06em;
+    color: #cecece;
 }
