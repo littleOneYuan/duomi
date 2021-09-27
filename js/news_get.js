@@ -1,5 +1,5 @@
 // 文章列表
-const base_url = 'https://dmhd.caohua.com/dmhd/'
+const base_url = 'https://dmhd.***.com/dmhd/'
 
 $(document).ready(function() {
 
