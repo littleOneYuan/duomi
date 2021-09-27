@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 
-    const base_url = 'https://dmhd.caohua.com/dmhd/'
+    const base_url = 'https://dmhd.***.com/dmhd/'
 
     function getQueryString(name) {
         const reg = new RegExp(`(^|&)${name}=([^&]*)(&|$)`)
